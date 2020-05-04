@@ -1,0 +1,64 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js
+
+PATH: 
+  C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Calcey\bin;C:\Python38\Scripts;C:\Python38;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Docker\Docker\Resources\bin;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\Program Files\Microsoft SQL Server\120\Tools\Binn;C:\Program Files\Microsoft SQL Server\130\Tools\Binn;C:\Program Files\dotnet;C:\Program Files\PuTTY;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn;C:\Program Files\Microsoft SQL Server\120\DTS\Binn;C:\ProgramData\chocolatey\bin;C:\Program Files\RabbitMQ Server\rabbitmq_server-3.7.3\sbin;C:\Users\Calcey\AppData\Local\Android\Sdk;C:\Users\Calcey\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\Java\jdk1.8.0_161\bin;C:\Users\Calcey\AppData\Local\Programs\Python\Python36-32\Scripts;C:\WINDOWS\System32\OpenSSH;D:\MongoDb\Server\3.4\bin;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Intel\WiFi\bin;C:\Program Files\Common Files\Intel\WirelessCommon;C:\Program Files (x86)\Yarn\bin;C:\Program Files\Git\cmd;C:\Users\Calcey\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\Calcey\AppData\Local\Programs\Python\Python36-32\Scripts;C:\Users\Calcey\AppData\Local\Programs\Python\Python36-32;C:\Users\Calcey\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Microsoft VS Code\bin;C:\Program Files (x86)\Vim\vim80;C:\Program Files\emacs-25.1-2-i686-w64-mingw32\bin;C:\Program Files\RabbitMQ Server\rabbitmq_server-3.7.2\sbin;C:\Program Files\Handle;D:\cmder;C:\Program Files\curl-7.58.0\src;C:\Program Files\RabbitMQ Server\rabbitmq_server-3.7.3\sbin;C:\OpenSSL-Win64\bin;C:\Program Files\Heroku\bin;C:\Users\Calcey\AppData\Roaming\nvm;C:\Program Files\Java\jdk-9.0.4\bin;C:\Program Files (x86)\Python36-32\Scripts;C:\Users\Calcey\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Calcey\AppData\Local\Yarn\bin;C:\Users\Calcey\AppData\Local\hyper\app-3.0.2\resources\bin;C:\Users\Calcey\AppData\Roaming\nvm;C:\Program Files\nodejs
+
+Yarn version: 
+  1.17.3
+
+Node version: 
+  12.16.2
+
+Platform: 
+  win32 x64
+
+Trace: 
+  SyntaxError: F:\Projects\GitHub\game-dev\bunny-hop\package.json: Unexpected token } in JSON at position 640
+      at JSON.parse (<anonymous>)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (C:\Program Files (x86)\Yarn\lib\cli.js:304:30)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:315:13
+
+npm manifest: 
+  {
+    "name": "bunny-hop",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "scripts": {
+      "dev": "parcel  src/index.html -p 9000",
+      "build": "parcel build src/index.html --out-dir dist"
+    },
+     "devDependencies": {
+      "@typescript-eslint/eslint-plugin": "^2.29.0",
+      "@typescript-eslint/parser": "^2.29.0",
+      "eslint": "^6.8.0",
+      "parcel-bundler": "^1.12.4",
+      "phaser3-docs": "github:photonstorm/phaser3-docs",
+      "sass": "^1.26.3",
+      "typescript": "^3.8.3",
+      "parcel-plugin-clean-easy": "^1.0.2",
+  		"parcel-plugin-static-files-copy": "^2.2.1",
+    },
+    "dependencies": {
+      "phaser": "^3.22.0"
+    },
+    "parcelCleanPaths": [
+  		"dist"
+  	],
+  	"staticFiles": {
+  		"staticPath": "public",
+  		"watcherGlob": "**"
+  	}
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
